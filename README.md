@@ -1,85 +1,40 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
----
+## Getting Started
 
-# GENSIS  
+First, run the development server:
 
-**GENSIS** is a Python-based web application designed to provide efficient and seamless functionality for **[specific use case]**. This application includes key features such as user authentication, data processing, and API integration to enhance the overall user experience.  
-
-## 🚀 Features  
-
-- **User Authentication** – Secure login and registration system.  
-- **Data Processing** – Efficiently handles and processes data.  
-- **API Integration** – Connects with external APIs to extend functionality.  
-- **Responsive UI** – Optimized for various screen sizes.  
-- **Error Handling** – Robust exception handling to ensure smooth operation.  
-
-## 🛠 Installation  
-
-Follow these steps to set up the project locally:  
-
-### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-```  
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### 2️⃣ Navigate to the Project Directory  
-```bash
-cd your-repo
-```  
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 3️⃣ Create and Activate a Virtual Environment  
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-```  
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### 4️⃣ Install Dependencies  
-```bash
-pip install -r requirements.txt
-```  
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-## 🚀 Usage  
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-Run the application with the following command:  
-```bash
-python app.py
-```  
-Once started, access the application at: **[http://localhost:5000](http://localhost:5000)**  
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## ⚙ Configuration  
+## Learn More
 
-To configure environment variables, create a `.env` file in the root directory and add the following:  
-```ini
-SECRET_KEY=your_secret_key
-DEBUG=True
-DATABASE_URL=your_database_url
-```  
+To learn more about Next.js, take a look at the following resources:
 
-## 🤝 Contributing  
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-We welcome contributions from the community! To contribute:  
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-1. **Fork the Repository**  
-2. **Create a New Branch**  
-   ```bash
-   git checkout -b feature-branch
-   ```  
-3. **Commit Your Changes**  
-   ```bash
-   git commit -m "Add new feature"
-   ```  
-4. **Push to the Branch**  
-   ```bash
-   git push origin feature-branch
-   ```  
-5. **Open a Pull Request** for review.  
+## Deploy on Vercel
 
-## 📩 Contact  
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-For questions or support, feel free to reach out:  
-
-- **Tanay Chaplot**  
-- ✉ Email: [tanaychaplot@gmail.com](mailto:tanaychaplot@gmail.com)  
-- 🐙 GitHub: [Open an Issue](https://github.com/yourusername/your-repo/issues)  
-
----
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
